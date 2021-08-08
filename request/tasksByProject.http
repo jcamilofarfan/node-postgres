@@ -1,0 +1,12 @@
+@api = http://localhost:4000/api/
+
+###
+GET {{api}}1
+
+###
+PUT  {{api}}1
+Content-Type: application/json
+
+{
+    "done": true
+}

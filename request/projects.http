@@ -1,0 +1,34 @@
+@api = http://localhost:4000/api/projects/
+
+
+###
+GET {{api}}
+
+###
+GET {{api}}1
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "name": "Project Test",
+    "priority": 3,
+    "description": "Test Project",
+    "deliverydate": "2021-08-10"
+}
+
+###
+DELETE {{api}}6
+
+###
+PUT  {{api}}1
+Content-Type: application/json
+
+{
+    "name": "Make SPA Client",
+    "priority": 1,
+    "description": "Using React",
+    "deliverydate": "2021-08-10"
+}
+
